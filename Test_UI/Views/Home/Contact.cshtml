@@ -1,0 +1,10 @@
+﻿<p><h2>Below Table Represents the Element Directive</h2></p>
+<my-directive></my-directive><br/><br/>
+<h3>One-Way-Binding & Two-Way-Binding</h3>
+<div ng-init="firstName = 'John'; lastName = 'Doe';">
+    <strong>First name:</strong> {{firstName}}<br />
+    <strong>Last name:</strong> <span ng-bind="lastName"></span><br />
+    <br />
+    <label>Set the first name: <input type="text" ng-model="firstName" /></label><br />
+    <label>Set the last name: <input type="text" ng-model="lastName" /></label>
+</div>

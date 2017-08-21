@@ -1,0 +1,44 @@
+﻿<html ng-app="myModule">
+<head>
+    <title>WelCome</title>
+    <base href="/" />
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular-resource.min.js"></script>
+    @Scripts.Render("~/bundles/customScripts")
+    @*<script src="~/MyScripts/Script.js"></script>*@
+
+</head>
+<body>
+    <div ng-controller="myController" style="background-color: #cccccc">
+        <input type="text" placeholder="twowaybinding by name" ng-model="search.EmpName" /><br/>
+        Searched-Value : {{search.EmpName}}
+        <table style="border: 1px solid black;">
+            <thead style="border: 1px solid black;">
+                <tr>
+                    <td>EmpId</td>
+                    <td>EmpName</td>
+                    <td>Salary</td>
+                </tr>
+            </thead>
+            <tr ng-repeat="emp in EmpData|filter:search" style="border: 1px solid black;">
+                <td>{{emp.EmpId}}</td>
+                <td>{{emp.EmpName}}</td>
+                <td>{{emp.Salary}}</td>
+            </tr>
+        </table><br /><br />
+        <h6>
+            <a href="#/About">Angular_Route</a><br />
+        </h6>
+        <h6>
+            <a href="#/Contact">Binding&ElementDirective</a><br />
+        </h6>
+        @*<div>
+            <input type="button" value="locationpath" ng-click="locationpath()" />
+        </div>*@
+        <ng-view></ng-view>
+    </div>
+   <h3><a href="/Home/search">MVC-ROUTE</a></h3>
+</body>
+</html>
+

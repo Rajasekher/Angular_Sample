@@ -1,0 +1,13 @@
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\Test_Api.dll.config
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\Test_Api.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\Test_Api.pdb
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\Newtonsoft.Json.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Net.Http.Formatting.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Web.Http.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Web.Http.WebHost.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\Newtonsoft.Json.xml
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Net.Http.Formatting.xml
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Web.Http.xml
+D:\projects\angularjs\Assesment_kiran\Test_Api\bin\System.Web.Http.WebHost.xml
+D:\projects\angularjs\Assesment_kiran\Test_Api\obj\Debug\Test_Api.dll
+D:\projects\angularjs\Assesment_kiran\Test_Api\obj\Debug\Test_Api.pdb
